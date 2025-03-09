@@ -620,7 +620,7 @@ class Node {
       neighbors.add(grid[i][j - 1]);
     }
     
-    // Köşegen komşuları eklemek için aşağıdaki satırları ekleyebilirsiniz
+    // Köşegen komşuları eklemek için kodlar. A* algoritması köşegen olduğunda daha hızlı çalışıyor
     // if (i > 0 && j > 0) {
     //   neighbors.add(grid[i - 1][j - 1]);
     // }
